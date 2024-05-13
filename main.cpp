@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
         std::cout << " " << argv[i];
     std::cout << std::endl << std::endl;
 
-    if (argc != 5) {
+    if (argc != 4) {
         std::cerr << std::endl << "***Incorrect number of arguments***" << std::endl;
         return 1;
     }
@@ -58,9 +58,8 @@ int main(int argc, char** argv) {
             std::cout << num << ' ';
         }
         std::cout << std::endl;
-        std::cout << "\nThe map: \n\n";
-        tmap.display(std::cout);
-
+        std::cout << "\nMAP: \n\n";
+        tmap.display(std::cout);       
     }
     catch (std::string& msg) {
         std::cout << msg << std::endl;
