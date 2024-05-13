@@ -17,10 +17,10 @@ This project aims to recreate the Minesweeper experience in the console, allowin
 
 ## Installation
 1- Clone this repository to your local machine:
-git clone https://github.com/Most4f4/MineSweeper.git
+git clone https://github.com/Most4f4/CPP_MineSweeper.git
 
 2- Navigate to the project directory:
-cd MineSweeper
+cd CPP_MineSweeper
 
 3- Compile the source code:
 g++ main.cpp -o minesweeper
